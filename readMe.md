@@ -1,5 +1,5 @@
-# IN PROGRESS
-
+# IN PROGRESS 
+:zap:
 # Desing Patterns
 
 ## What is a Design Pattern ? 

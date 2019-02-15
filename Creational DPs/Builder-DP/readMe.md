@@ -14,5 +14,6 @@ Your object/class may depend on large number of field parameters.
 
 It might be your need also forcing the immutability to the object once creation phase is done.
 
+- - - - 
 If you have these reasons, builder desing patter can be good choice to choose. But surely, further conditions can be considered before applying this pattern as well.
 It typically solve problem in object oriented programming i.e determining what constructor to use. Often we write many constructor and it is really hard to manage them. The multiple constructor with combination of multiple parameters variation is called the telescoping constructor.

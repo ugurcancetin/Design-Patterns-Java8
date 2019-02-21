@@ -29,10 +29,9 @@ public class UserWebDTO implements UserDTO{
 
     @Override
     public String toString() {
-        return "UserWebDTO{" +
-                "name='" + name + '\'' +
-                ", address='" + address + '\'' +
-                ", age='" + age + '\'' +
-                '}';
+        return "UserWebDTO Object:\n" +
+                "name=" + name + '\n' +
+                "address='" + address + '\n' +
+                "age='" + age ;
     }
 }

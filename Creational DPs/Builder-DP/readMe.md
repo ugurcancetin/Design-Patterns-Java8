@@ -17,3 +17,8 @@ It might be your need also forcing the immutability to the object once creation 
 - - - - 
 If you have these reasons, builder desing patter can be good choice to choose. But surely, further conditions can be considered before applying this pattern as well.
 It typically solve problem in object oriented programming i.e determining what constructor to use. Often we write many constructor and it is really hard to manage them. The multiple constructor with combination of multiple parameters variation is called the telescoping constructor.
+
+## Examples In Java World
+  * StringBuilder
+  * DocumentBuilder
+  * Locale.Builder

@@ -11,7 +11,6 @@ public class UserWebDTOBuilder implements UserDTOBuilder{
     private String address;
     private UserWebDTO dto;
 
-
     @Override
     public UserDTOBuilder withFirstName(String fname) {
         this.firstName = fname;

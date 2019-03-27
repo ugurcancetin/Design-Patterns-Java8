@@ -22,3 +22,14 @@ It typically solve problem in object oriented programming i.e determining what c
   * StringBuilder
   * DocumentBuilder
   * Locale.Builder
+  
+  
+- - - -
+## Good to Keep In Mind
+* :loudspeaker: Flexbility over telescoping constructors 
+* :loudspeaker: Static inner class
+* :loudspeaker: Calls appropriate constructor
+* :loudspeaker: Take advantage of Generics
+
+
+

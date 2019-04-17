@@ -34,3 +34,8 @@ Design Patterns therefore provide the following benefits.
 * They aid communication by the very fact that they are well documented and can be researched if that is not the case.
 * They have a proven track record as they are already widely used and thus reduce the technical risk to the project
 * They are highly flexible and can be used in practically any type of application or domain
+
+## Design Patters Overview 
+
+![](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/design-patterns.PNG)
+

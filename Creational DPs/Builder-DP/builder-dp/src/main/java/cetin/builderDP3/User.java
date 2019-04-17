@@ -56,8 +56,7 @@ public class User {
         }
 
         public User build(){
-            User user = new User(nestedFirstName, nestedLastName, nestedAdress);
-            return user;
+            return new User(nestedFirstName, nestedLastName, nestedAdress);
         }
     }
 }

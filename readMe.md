@@ -39,3 +39,9 @@ Design Patterns therefore provide the following benefits.
 
 ![](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/design-patterns.PNG)
 
+## GOOD TO KNOW 
+
+![](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/state%20machine.PNG)
+![](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/sequance%20diagram.PNG)
+![](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/relations.PNG)
+![](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/atm%20usage.PNG)

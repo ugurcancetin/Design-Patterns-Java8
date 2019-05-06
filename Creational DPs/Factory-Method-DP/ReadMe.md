@@ -5,3 +5,17 @@ A Factory Pattern or Factory Method Pattern says that __just define an interface
 The Factory Method Pattern is also known as Virtual Constructor.
 
 With other words, Factory design pattern is used when we have a super class with multiple sub-classes and based on input, we need to return one of the sub-class. This pattern take out the responsibility of instantiation of a class from client program to the factory class.
+
+## Advantage of Factory Design Pattern
+
+Factory Method Pattern allows the sub-classes to choose the type of objects to create. It promotes the loose-coupling by eliminating the need to bind application-specific classes into the code. That means the code interacts solely with the resultant interface or abstract class, so that it will work with any classes that implement that interface or that extends that abstract class.
+
+## Usage of Factory Design Pattern
+
+* When a class doesn't know what sub-classes will be required to create
+* When a class wants that its sub-classes specify the objects to be created.
+* When the parent classes choose the creation of objects to its sub-classes.
+
+## UML for Factory Method Pattern
+
+

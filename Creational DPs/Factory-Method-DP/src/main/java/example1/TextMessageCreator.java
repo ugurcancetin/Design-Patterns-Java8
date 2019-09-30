@@ -1,5 +1,7 @@
-import message.Message;
-import message.TextMessage;
+package example1;
+
+import example1.message.Message;
+import example1.message.TextMessage;
 
 public class TextMessageCreator extends MessageCreator {
     @Override

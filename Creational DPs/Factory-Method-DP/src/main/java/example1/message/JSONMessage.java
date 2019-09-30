@@ -1,4 +1,4 @@
-package message;
+package example1.message;
 
 public class JSONMessage extends Message{
 

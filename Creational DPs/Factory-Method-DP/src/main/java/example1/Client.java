@@ -1,4 +1,6 @@
-import message.Message;
+package example1;
+
+import example1.message.Message;
 
 public class Client {
 

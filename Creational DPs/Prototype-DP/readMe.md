@@ -29,4 +29,4 @@ For example,
 * Usually implemented with a Registry
 * Example: java.lang.Object#clone()
 
- ![Prototype Desing Pattern UML]( "https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/Creational%20DPs/Factory-Method-DP/factory-method-dp.PNG")
+ ![Prototype Desing Pattern UML]( "https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/Creational%20DPs/Prototype-DP/prototype.PNG")

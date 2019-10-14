@@ -29,4 +29,10 @@ For example,
 * Usually implemented with a Registry
 * Example: java.lang.Object#clone()
 
+## Implementation Considerations
+ * Pay attention to the deep copy and shallow copy of references. Immutable fields on clones save the trouble of deep copy.
+ * Make sure to reset the mutable state of object before returning the prototype. It's good idea to implement this in the method to allow subclasses to initialize themselves. reset and initialize methods in sample project1.
+ * clone() method is protected in Object class and must be overridden to be public to callable from outside of the class.
+ * Clonable is a "marker" interface, an indication that the class supports cloning.
+
 ![Factory Method UML](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/Creational%20DPs/Prototype-DP/prototype-2.PNG)

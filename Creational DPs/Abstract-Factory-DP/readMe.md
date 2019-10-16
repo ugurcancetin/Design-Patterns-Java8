@@ -19,6 +19,14 @@ The client does not know or care which concrete objects it gets from each of the
 
 So with this idea of Abstract Factory pattern, we will now try to create a design that will facilitate the creation of related objects.
 
+## Implementation of Abstract Factory
+
+* We start by studying the product sets
+  * Create abstract factory as an abstract class or an interface
+  * Abstract factory defines abstract methods for creating products
+  * Provide concrete implementation of factory for each set of products 
+* Abstract factory makes use of factory method pattern. You can think of abstract factory as an object with multiple factory methods...
+
 ## Concepts
 
 * Factory of Factories

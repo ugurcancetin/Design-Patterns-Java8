@@ -40,7 +40,7 @@ So with this idea of Abstract Factory pattern, we will now try to create a desig
 
 ## Compare & Contrast With Factory Method
 
-Abstract Factor  | Factory method
+Abstract Factory  | Factory method
 ------------- | -------------
 Hides factories as well as concrete objects used from the client code | Hides the concrete objects which are used from the client code.
 Suitable when multiple objects are designed to work together & client must be use products from single family at a time  | Concerned with one product & its subclasses. Collaboration of product itself with other objects are irrelevant.

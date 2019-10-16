@@ -28,4 +28,4 @@ So with this idea of Abstract Factory pattern, we will now try to create a desig
 * Example: DocumentBuilder
 
 
-![Factory Method UML](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/Creational%20DPs/Prototype-DP/prototype-2.PNG)
+![Factory Method UML](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/Creational%20DPs/Abstract-Factory-DP/abstract-factory.PNG)

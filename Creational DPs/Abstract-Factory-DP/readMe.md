@@ -45,4 +45,10 @@ Abstract Factor  | Factory method
 Hides factories as well as concrete objects used from the client code | Hides the concrete objects which are used from the client code.
 Suitable when multiple objects are designed to work together & client must be use products from single family at a time  | Concerned with one product & its subclasses. Collaboration of product itself with other objects are irrelevant.
 
+## Pitfalls
+
+* A lot more complex to implement than factory method.
+* Adding a new product requires changes to base factory as well as ALL implementations of factory.
+* Difficult to visualize the need at start of deevelopment and usually starts out as factory method.
+
 ![Factory Method UML](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/Creational%20DPs/Abstract-Factory-DP/abstract-factory.PNG)

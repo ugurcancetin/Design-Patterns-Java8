@@ -14,6 +14,6 @@ A pool helps to manage available resources in a better way. There are many using
    * One of the most complicated pattern to implement efficiently.(without defects)
    
    
-## UML for Factory Method Pattern
+## UML for Object Pool Pattern
 
 ![Factory Method UML](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/Creational%20DPs/Object-Pool-DP/Object-Pool.PNG)

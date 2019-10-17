@@ -12,3 +12,8 @@ A pool helps to manage available resources in a better way. There are many using
    * In our system if cost of creating an instance of a class is high and we need a large number of objects of this class for short duration, then we can use an object pool.
    * Here we either pre-create objects of the class or collect unused instances in an in memory cache. When code needs an object of this class, we provide it from this cache.
    * One of the most complicated pattern to implement efficiently.(without defects)
+   
+   
+## UML for Factory Method Pattern
+
+![Factory Method UML](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/Creational%20DPs/Object-Pool-DP/Object-Pool.PNG)

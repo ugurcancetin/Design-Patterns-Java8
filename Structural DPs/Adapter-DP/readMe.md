@@ -10,4 +10,6 @@ The main motive behind using this pattern is to convert an existing interface in
 * Using adapter design pattern we make this existing object work with client by adapting the object to client's expected interface.
 * This pattern is also called as wrapper as it "wraps" existing object.
 
+## Adapter Pattern UML Diagram
+
 ![Factory Method UML](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/Structural%20DPs/Adapter-DP/adapter-dp.PNG)

@@ -1,6 +1,6 @@
 ## What is an Object Pool? 
 
-Mostly, performance is the key issue during the software development and the object creation, which may be a costly step.
+Most of the time, performance is the key issue during the software development and the object creation, which may be a costly step.
 
 Object Pool Pattern says that " to reuse the object that are expensive to create".
 

@@ -9,3 +9,5 @@ With bullet points
 * we have an existing object which provides the functionality that client needs. But the client code can't use this object because it expects an object with a different interface.
 * Using adapter design pattern we make this existing object work with client by adapting the object to client's expected interface.
 * This pattern is also called as wrapper as it "wraps" existing object.
+
+![Factory Method UML](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/Structural%20DPs/Adapter-DP/adapter-dp.PNG)

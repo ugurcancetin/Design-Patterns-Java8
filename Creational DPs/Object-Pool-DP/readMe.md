@@ -12,7 +12,13 @@ A pool helps to manage available resources in a better way. There are many using
    * In our system if cost of creating an instance of a class is high and we need a large number of objects of this class for short duration, then we can use an object pool.
    * Here we either pre-create objects of the class or collect unused instances in an in memory cache. When code needs an object of this class, we provide it from this cache.
    * One of the most complicated pattern to implement efficiently.(without defects)
-   
+
+## Compare & Constrast with Prototype
+
+Object Pool  | Prototype
+------------- | -------------
+We have cached objects that frequently live throughout programs entire run.  | Prototype creates object when needed and no cahcing is done.
+Code using objects from object pool has to return the objects explicitly to pool. Depending on implementation, failing to return to pool may lead to memory and/or resour leak.  | Once an object is cloned no special treatment is needed by the client code and object can be used like any regular object.
    
 ## UML for Object Pool Pattern
 

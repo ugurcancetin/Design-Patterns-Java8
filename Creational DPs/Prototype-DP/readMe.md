@@ -34,5 +34,14 @@ For example,
  * Make sure to reset the mutable state of object before returning the prototype. It's good idea to implement this in the method to allow subclasses to initialize themselves. reset and initialize methods in sample project1.
  * clone() method is protected in Object class and must be overridden to be public to callable from outside of the class.
  * Clonable is a "marker" interface, an indication that the class supports cloning.
+ 
+ ## Pitfalls
+ 
+ * Usability depends upon the number of properties in state that are immutable or can be shallow copied. An object where state is comprised of large number of mutable object is complicated to clone.
+ * In Java the default clone operation will only perform the shallow copy so if you need a deep copy, you have to implement it.
+ * Subclasses may not be able to support clone and so the code becomes complicated as you have to code for the situations where an implementation may not suppor clone.
+ 
+ 
+ ## UML Diagram for Prototype
 
 ![Factory Method UML](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/Creational%20DPs/Prototype-DP/prototype-2.PNG)

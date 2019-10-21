@@ -19,7 +19,13 @@ Object Pool  | Prototype
 ------------- | -------------
 We have cached objects that frequently live throughout programs entire run.  | Prototype creates object when needed and no cahcing is done.
 Code using objects from object pool has to return the objects explicitly to pool. Depending on implementation, failing to return to pool may lead to memory and/or resour leak.  | Once an object is cloned no special treatment is needed by the client code and object can be used like any regular object.
-   
+
+## Pitfalls
+* Succesful implementation depends on correct use by the client code. Releasing object back to pool can be vital for correct way of working.
+* The reusable object needs to take care of resetting its state in efficient way. Some objects may not be suitable for pooling due to this requirement.
+* Difficult to use in refactoring legacy code as the client code * reusable object both need to be aware of object pool.
+* You have to decide what happens when pool is empty and there is a demand for an object. You can either wait for an object to become free or create new objects. Both have option issues. Waiting can have severe negative impact on performance.
+
 ## UML for Object Pool Pattern
 
 ![Factory Method UML](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/Creational%20DPs/Object-Pool-DP/Object-Pool.PNG)

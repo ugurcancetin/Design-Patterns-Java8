@@ -20,6 +20,12 @@ Factory Method Pattern allows the sub-classes to choose the type of objects to c
 * When a class wants that its sub-classes specify the objects to be created.
 * When the parent classes choose the creation of objects to its sub-classes.
 
+## Pitfalls
+
+* More complex to implement. More classes are involved and need unit testing.
+* It's not easy to refactor code that is built on top of Factory Method design pattern.
+* Sometimes this pattern forces you to subclass just to create appropriate instance.
+
 ## Examples:
 * Calendar
 * ResourceBundle

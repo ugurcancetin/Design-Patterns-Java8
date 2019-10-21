@@ -1,4 +1,4 @@
-## Singleton Desing Pattern
+# Singleton Desing Pattern
 
 Java Singleton Pattern is one of the Gangs of Four Design patterns and comes in the Creational Design Pattern category. From the definition, it seems to be a very simple design pattern but when it comes to implementation, it comes with a lot of implementation concerns. The implementation of Java Singleton pattern has always been a controversial topic among developers. Here we will learn about Singleton design pattern principles, different ways to implement the Singleton design pattern and some of the best practices for its usage.
 
@@ -8,7 +8,7 @@ Java Singleton Pattern is one of the Gangs of Four Design patterns and comes in 
 * Singleton design pattern is also used in other design patterns like Abstract Factory, Builder, Prototype, Facade etc.
 * Singleton design pattern is used in core java classes also, for example java.lang.Runtime, java.awt.Desktop.
 
-### Implementation
+## Implementation
 
 To implement a Singleton pattern, we have different approaches but all of them have the following common concepts.
 
@@ -16,7 +16,7 @@ To implement a Singleton pattern, we have different approaches but all of them h
 * Private static variable of the same class that is the only instance of the class.
 * Public static method that returns the instance of the class, this is the global access point for outer world to get the instance of the singleton class.
 
-###  Different Approaches of Singleton Pattern Implementation
+##  Different Approaches of Singleton Pattern Implementation
 
 1. Eager initialization
 2. Static block initialization
@@ -28,3 +28,9 @@ To implement a Singleton pattern, we have different approaches but all of them h
 8. Serialization and Singleton
 
 [Full Article](https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples)
+
+## Pitfalls
+
+* Singleton pattern can deceive you about true dependencies!! Since they are globally accesible its easy to miss dependencies.
+* They are hard to unit test. You cannot easily mock the instance that is returned.
+* A Singleton carrying around a large  **mutable** global state is a good indication of an abused Singleton pattern. 

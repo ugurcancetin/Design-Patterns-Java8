@@ -10,6 +10,15 @@ The main motive behind using this pattern is to convert an existing interface in
 * Using adapter design pattern we make this existing object work with client by adapting the object to client's expected interface.
 * This pattern is also called as wrapper as it "wraps" existing object.
 
+## Implementation Considerations
+
+* How much work the adapter does depends upon the difference between target interface and object being adapted. If method arguments are same or similar adapter has very less work to do.
+* Using class adapter "allows" you to override some of the adaptee;s behaviour. But this has to be avoided as you end up with adapter that behaves differently than adaptee. Fixing defects is not easy anymore!!
+* Using object adapter allows you to potentially change the adaptee object to one of its subclasses.
+* In java a "class adapter" may not be possible if both target and adaptee are concrete classes. In such cases the object adapter is the only solution. Also since there is private inheritance in Java, it's better to stick with object adapter.
+* A class adapter is also called as a two way adapter, since it can stand in for both tge target interface and for the adaptee. That's we can use object of adapter where either target interface is expected as well as where an adaptee object is expected.
+
+
 ## Adapter Pattern UML Diagram
 
 ![Factory Method UML](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/Structural%20DPs/Adapter-DP/adapter-dp.PNG)

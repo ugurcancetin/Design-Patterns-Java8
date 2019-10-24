@@ -18,6 +18,12 @@ The main motive behind using this pattern is to convert an existing interface in
 * In java a "class adapter" may not be possible if both target and adaptee are concrete classes. In such cases the object adapter is the only solution. Also since there is private inheritance in Java, it's better to stick with object adapter.
 * A class adapter is also called as a two way adapter, since it can stand in for both tge target interface and for the adaptee. That's we can use object of adapter where either target interface is expected as well as where an adaptee object is expected.
 
+## Compare & Contrast with Decorator
+
+Adapter  | Decorator
+------------- | -------------
+Simply adapts an object to another interface without changing behaviour. | Enhances object behaviour without changing its interface.
+Not easy to use recursive composition, that is an adapter adapting another adapter since adapters change interface. | Since decorators do not change the interface, we can do recursive composition or in other words decorate a decorator with ease. Since a decorator is indistinguishable from main object.
 
 ## Adapter Pattern UML Diagram
 

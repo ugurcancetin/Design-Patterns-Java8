@@ -25,6 +25,12 @@ Adapter  | Decorator
 Simply adapts an object to another interface without changing behaviour. | Enhances object behaviour without changing its interface.
 Not easy to use recursive composition, that is an adapter adapting another adapter since adapters change interface. | Since decorators do not change the interface, we can do recursive composition or in other words decorate a decorator with ease. Since a decorator is indistinguishable from main object.
 
+## Pitfalls
+
+* Using target interface and adaptee class to extend our adapter we can create a "class adapter" in java. However it creates an object which exposes unrelated methods in parts of your code, polluting it. Avoid class adapter. It's mentioned in the examples only for sake of completeness.
+* It is tempting to do a lot of things in adapter besides simple interface translation. But this can result in an adapter showing different behaviour than the adapted object.
+* Not a lot of other pitfalls! As long as we keep them true to their purpose of simple interface translation they are good.
+
 ## Adapter Pattern UML Diagram
 
 ![Factory Method UML](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/Structural%20DPs/Adapter-DP/adapter-dp.PNG)

@@ -33,3 +33,7 @@ Bridge  | Adapter
 ------------- | -------------
 Intent is to allow abstraction and implementation to vary independently. | Adapter is meant to make unrelated class work together.
 Bridge has to be designed up front then only we can have varying abstractions & implementations. | Adapter finds its usage typically where a legacy system is to be integrated with new code.
+
+## Bridge Pattern UML Diagram
+
+![Bridge Method UML](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/Structural%20DPs/Bridge-DP/Bridge-DP.PNG)

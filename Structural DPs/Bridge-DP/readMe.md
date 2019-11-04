@@ -26,3 +26,10 @@ Bridge is a structural design pattern that lets you split a large class or a set
 
 * Bridge provides great extensibility by allowing us to change abstraction and implementor independently. You can build and package them separately to modularize overall system.
 * By using abstract factory pattern to create abstraction objects with correct implementation you ca de-couple concrete implementors from abstraction.
+
+## Compare & Contrast with Adapter
+
+Bridge  | Adapter
+------------- | -------------
+Intent is to allow abstraction and implementation to vary independently. | Adapter is meant to make unrelated class work together.
+Bridge has to be designed up front then only we can have varying abstractions & implementations. | Adapter finds its usage typically where a legacy system is to be integrated with new code.

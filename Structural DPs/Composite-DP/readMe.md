@@ -26,3 +26,15 @@ But again the number of nodes is major deciding factor as using a cache for smal
 but leaf nodes are forced to implement those methods. Defining them in composite is safer but client needs to be made aware of composite.
 * Overall goal of design should be to make client code easier to implement when using composite. This is possible if 
 client code can work with component interface only and does not need to worry about leaf-composite distinction.
+
+# Comparison 
+
+Composite | Decorator
+------------- | -------------
+Deals with the tree structure of objects | Simply contains another single object.
+Leaf nodes and composites have same interface and composites simply delegate the operation to children. | Decorators add or modify behaviour of contained object and do not have notion of children.
+
+# Pitfalls
+
+* Difficult to restrict what is added to hierarchy. If multiple types of leaf nodes are present in system  then client code ends up doing runtime checks to ensure the operation is available on a node.
+* Creating the original hierarchy can still be complex implementation especially if you are using caching to reuse nodes and number of nodes are quite high.

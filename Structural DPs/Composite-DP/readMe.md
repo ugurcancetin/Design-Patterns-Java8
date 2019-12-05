@@ -38,3 +38,7 @@ Leaf nodes and composites have same interface and composites simply delegate the
 
 * Difficult to restrict what is added to hierarchy. If multiple types of leaf nodes are present in system  then client code ends up doing runtime checks to ensure the operation is available on a node.
 * Creating the original hierarchy can still be complex implementation especially if you are using caching to reuse nodes and number of nodes are quite high.
+
+# Composite UML Diagram
+
+![Composite UML](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/Structural%20DPs/Composite-DP/composite.PNG)

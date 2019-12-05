@@ -31,3 +31,6 @@ facade is not restricted by any existing interface. It often defines simple meth
 * Not a pitfall of the pattern itself but needing a facade in a new design should warrant another look at API design.
 * It is often overused or misused pattern & can hide improperly designed API. A common misuse is to use them as "containers of related methods". So be on the lookout for such cases during code reviews.
 
+# Facade UML Diagram
+
+![Facade UML](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/Structural%20DPs/Facade-DP/Facade.PNG)

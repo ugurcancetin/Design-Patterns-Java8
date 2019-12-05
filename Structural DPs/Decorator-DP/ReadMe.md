@@ -23,3 +23,8 @@
 
 * Decorators are more flexible & powerful than inheritance. Inheritance is static by definition but decorators allow you to dynamically compose behaviour using objects at runtime.
 * Decorators should act like additional skin over your object. They should add helpful small behaviours to object's original behaviour. Do not change meaning of operations.
+
+## Decorator Pattern UML Diagram
+
+![Decorator UML](https://github.com/ugurcancetin/Design-Patterns-Java8/blob/master/Structural%20DPs/Decorator-DP/decorator.PNG)
+

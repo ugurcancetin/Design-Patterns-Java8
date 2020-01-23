@@ -57,3 +57,8 @@ https://www.geeksforgeeks.org
 https://www.pluralsight.com
 
 https://www.udemy.com
+
+https://www.coursera.org/
+
+https://www.oreilly.com/
+
